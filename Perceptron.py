@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 start=time.process_time()
 #pre-process data
-path = r'C:\Users\Oval Liu\Desktop\iris.data'
+path = r'...'
 iris=pd.read_csv(path)
 iris.columns=['sl','sw','pl','pw','type_raw']
 X=iris.iloc[0:,1:3]
